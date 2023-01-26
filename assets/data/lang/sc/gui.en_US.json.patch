@@ -1,0 +1,15 @@
+{
+	"labels": {
+		"options": {
+			"headers": {
+				"cc-delta-time-limiter": "Delta Time Limiter"
+			},
+
+			"controls": {
+				"keys": {
+					"toggle-delta-time": "Toggle Delta Time Cap"
+				}
+			}
+		}
+	}
+}
