@@ -10,7 +10,7 @@
 sc.OPTIONS_DEFINITION["keys-toggle-delta-time"] = {
 	type: "CONTROLS",
 	init: {
-		key1: ig.KEY.G,
+		key1: ig.KEY.SLASH,
 		key2: undefined
 	},
 	cat: sc.OPTION_CATEGORY.CONTROLS,

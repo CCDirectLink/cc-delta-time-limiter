@@ -5,7 +5,7 @@ CrossCode mod for changing the game's delta time cap, using a new hotkey found i
 
 In the Controls section you'll find a new option labelled **Toggle Delta Time Cap**.
 
-Set this hotkey to whatever key is most convenient for you, by default the hotkey is **G**.
+Set this hotkey to whatever key is most convenient for you, by default the hotkey is **/**.
 
 During runs or practice, press this hotkey to enable the modified delta time cap. 
 This will limit the overall length the game will consider each frame, making tricks like Barrier Skip consistent regardless of your computer or specs.

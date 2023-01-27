@@ -1,6 +1,6 @@
 {
 	"id": "yoshi-delta-time-limiter",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"module": true,
 	"title": "Delta Time Limiter",
 	"description": "Adds a hotkey for swapping the game's delta time cap.",

@@ -20,6 +20,7 @@ const DefaultMaxStep = 1/30;
 const ToggledMaxStep = 1/60;
 
 let isToggled = false;
+let textGui;
 
 /**
  * @inject
@@ -33,11 +34,21 @@ sc.Control.inject({
 
 function checkDeltaTimeToggle() {
 	if(sc.control && sc.control.toggleDeltaTimePress()) {
+		
+		if(!textGui) {
+			textGui = new sc.TextGui("", {'font' : sc.fontsystem.tinyFont});
+			textGui.setAlign(ig.GUI_ALIGN.X_LEFT, ig.GUI_ALIGN.Y_CENTER);
+			textGui.setPos(0.5, 0);
+			ig.gui.addGuiElement(textGui);
+		}
+
 		if(!isToggled) {
+			textGui.setText("\\c[3]Limiter is Enabled");
 			ig.Timer.maxStep = ToggledMaxStep;
 			isToggled = true;
 		}
 		else {
+			textGui.setText("");
 			ig.Timer.maxStep = DefaultMaxStep;
 			isToggled = false;
 		}
