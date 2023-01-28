@@ -1,6 +1,10 @@
 # Delta Time Limiter
 CrossCode mod for changing the game's delta time cap, using a new hotkey found in the Controls section.
 
+## Dependencies
+
+In order to use this mod, you'll also need to install [input-api](https://github.com/CCDirectLink/input-api).
+
 ## How to Use
 
 In the Controls section you'll find a new option labelled **Toggle Delta Time Cap**.

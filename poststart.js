@@ -22,6 +22,9 @@ const ToggledMaxStep = 1/60;
 let isToggled = false;
 let textGui;
 
+ig.lang.labels.sc.gui.options.headers['cc-delta-time-limiter'] = 'Delta Time Limiter';
+ig.lang.labels.sc.gui.options.controls.keys['toggle-delta-time'] = 'Toggle Delta Time Cap';
+
 /**
  * @inject
  * Inject hotkeys.

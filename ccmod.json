@@ -1,9 +1,12 @@
 {
 	"id": "yoshi-delta-time-limiter",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"module": true,
 	"title": "Delta Time Limiter",
 	"description": "Adds a hotkey for swapping the game's delta time cap.",
 	"prestart": "prestart.js",
-	"poststart": "poststart.js"
+	"poststart": "poststart.js",
+	"dependencies": {
+		"input-api": "^1.0.0"
+	}
 }
